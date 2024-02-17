@@ -131,10 +131,10 @@
           </figure>
           <div class="card-body">
             <h2 class="card-title">Ice land!</h2>
+            <h3 class="text-md text-orange-500 font-semibold">Cost: 150 $</h3>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions justify-end">
-              <button class="btn bg-lime-400">Add to Card</button>
-            </div>
+
+            <button class="add-to-cart-btn btn bg-lime-400">Add to Card</button>
           </div>
         </div>
         <!-- ****************card**************** -->
@@ -144,10 +144,11 @@
           </figure>
           <div class="card-body">
             <h2 class="card-title">Saint Martin!</h2>
+            <h3 class="text-md text-orange-500 font-semibold">Cost: 380 $</h3>
+
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions justify-end">
-              <button class="btn bg-lime-400">Add to Card</button>
-            </div>
+
+            <button class="add-to-cart-btn btn bg-lime-400">Add to Card</button>
           </div>
         </div>
         <!-- ****************card**************** -->
@@ -157,10 +158,11 @@
           </figure>
           <div class="card-body">
             <h2 class="card-title">Lalbag Fort!</h2>
+            <h3 class="text-md text-orange-500 font-semibold">Cost: 200 $</h3>
+
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions justify-end">
-              <button class="btn bg-lime-400">Add to Card</button>
-            </div>
+
+            <button class="add-to-cart-btn btn bg-lime-400">Add to Card</button>
           </div>
         </div>
         <!-- ****************card**************** -->
@@ -170,10 +172,11 @@
           </figure>
           <div class="card-body">
             <h2 class="card-title">Ahsan Manzil!</h2>
+            <h3 class="text-md text-orange-500 font-semibold">Cost: 350 $</h3>
+
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions justify-end">
-              <button class="btn bg-lime-400">Add to Card</button>
-            </div>
+
+            <button class="add-to-cart-btn btn bg-lime-400">Add to Card</button>
           </div>
         </div>
         <!-- ****************card**************** -->
@@ -183,39 +186,40 @@
           </figure>
           <div class="card-body">
             <h2 class="card-title">Srimangal!</h2>
+            <h3 class="text-md text-orange-500 font-semibold">Cost: 400 $</h3>
+
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions justify-end">
-              <button class="btn bg-lime-400">Add to Card</button>
-            </div>
+
+            <button class="add-to-cart-btn btn bg-lime-400">Add to Card</button>
           </div>
         </div>
       </div>
-      <div class="text-center">
-        <div class="bg-white shadow-md rounded-xl p-3">
+      <div class="">
+        <div class="bg-white shadow-md rounded-xl p-6">
           <!--****************** Calculation section****************** -->
-          <h2 class="font-bold text-2xl px-5 py-3">Cart</h2>
-          <div class="flex gap-12">
+          <h2 class="font-bold text-2xl text-center px-5 py-3">Cart</h2>
+          <div class="flex justify-between">
             <hr />
-            <div class="">
+            <div id="place" class="">
               <h3 class="font-semibold underline">Place</h3>
             </div>
-            <div class="">
+            <div id="amount" class="">
               <h3 class="font-semibold underline">Amount</h3>
             </div>
             <hr />
           </div>
           <div>
-            <h2 class="text-xl mt-6 font-medium">Total Cost: $0</h2>
+            <h2 class="text-xl mt-6 font-medium">Total Cost: <span id="total-cost">0</span> $</h2>
             <div
               class="grid grid-cols-2 items-center justify-center mt-3 gap-3"
             >
-              <div class="bg-lime-200 p-2 rounded-md font-semibold">
+              <div class="bg-lime-300 p-2 rounded-md font-semibold">
                 Bus+100
               </div>
-              <div class="bg-lime-200 p-2 rounded-md font-semibold">
+              <div class="bg-lime-300 p-2 rounded-md font-semibold">
                 Train-100
               </div>
-              <div class="bg-lime-200 p-2 rounded-md font-semibold">
+              <div class="bg-lime-300 p-2 rounded-md font-semibold">
                 Flight+500
               </div>
             </div>
